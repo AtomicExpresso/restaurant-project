@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _main_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./main.js */ \"./src/main.js\");\n\r\n\r\nfunction mainPage(){\r\n  (0,_main_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\r\n}\r\n\r\nmainPage();\r\n\r\nconsole.log('1212')\n\n//# sourceURL=webpack://restaurant_website_project/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _navbar_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./navbar.js */ \"./src/navbar.js\");\n/* harmony import */ var _main_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./main.js */ \"./src/main.js\");\n\r\n\r\n\r\nfunction mainPage(){\r\n  (0,_navbar_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\r\n  (0,_main_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\r\n}\r\n\r\nmainPage();\r\n\r\nconsole.log('1212')\n\n//# sourceURL=webpack://restaurant_website_project/./src/index.js?");
 
 /***/ }),
 
@@ -27,6 +27,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mai
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction main(){\r\n  const content = document.querySelector('#content')\r\n  const heroDiv = document.createElement('div');\r\n  let heroHeading = document.createElement('h1');\r\n  let heroPara = document.createElement('p');\r\n\r\n  heroHeading.innerText = 'Tony\\'s Pizza';\r\n  heroPara.innerText = 'Fresh baked pizza';\r\n\r\n  heroDiv.appendChild(heroHeading);\r\n  heroDiv.appendChild(heroPara);\r\n  content.appendChild(heroDiv);\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (main);\r\n\n\n//# sourceURL=webpack://restaurant_website_project/./src/main.js?");
+
+/***/ }),
+
+/***/ "./src/navbar.js":
+/*!***********************!*\
+  !*** ./src/navbar.js ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction navbar() {\r\n  const content = document.querySelector('#content')\r\n\r\n  let navbar = document.createElement('div');\r\n  let navText = document.createElement('h3');\r\n  let button = document.createElement('button');\r\n  let buttonTwo = document.createElement('button');\r\n  let buttonThree = document.createElement('button');\r\n\r\n  navbar.setAttribute(\"id\", \"navbar\");\r\n\r\n  navText.innerText = 'Tonys Pizza';\r\n  button.textContent = 'Home';\r\n  buttonTwo.textContent = 'Menu';\r\n  buttonThree.textContent = 'Contact';\r\n\r\n  navbar.append(navText, button, buttonTwo, buttonThree);\r\n  content.appendChild(navbar);\r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (navbar);\n\n//# sourceURL=webpack://restaurant_website_project/./src/navbar.js?");
 
 /***/ })
 
