@@ -6,26 +6,6 @@ body {
   padding: 0;
 }
 
-#navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  position: sticky;
-  background-color: rgb(255, 255, 255);
-  padding: 10px;
-  box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 2.6px;
-  gap: 10px;
-}
-
-#navbar button {
-  cursor: pointer;
-  border: none;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding: 10px 20px;
-  border-radius: 5px;
-}
-
 #content {
   display: flex;
   flex-direction: column;
@@ -34,6 +14,7 @@ body {
 }
 
 #main {
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   line-height: 0;
@@ -56,6 +37,7 @@ body {
   color: white;
   padding: 10px 20px;
   border-radius: 20px;
+  transition: 0.4s;
 }
 
 #about {
@@ -85,4 +67,34 @@ body {
 
 #abouttext h4 {
   color: #fb6b00;
+}
+
+button:hover {
+  scale: 0.96;
+}
+
+.nav {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+  position: fixed;
+  z-index: 10;
+  box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 2.6px;
+}
+
+#menubtn,
+#homebtn,
+#contactbtn {
+  cursor: pointer;
+  background-color: rgb(244, 244, 244);
+  border-radius: 5px;
+  padding: 3px 10px;
+}
+
+#menu {
+  margin-top: 100px;
 }

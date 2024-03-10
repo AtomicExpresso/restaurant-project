@@ -40,4 +40,4 @@ function main(){
   content.appendChild(aboutDiv);
 }
 
-export default main
+export default main;
