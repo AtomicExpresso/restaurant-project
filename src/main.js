@@ -14,7 +14,6 @@ function main(){
   //About section
   const aboutDiv = document.createElement('div');
   const aboutTextDiv = document.createElement('div');
-  const aboutSubText = document.createElement('p');
   const aboutHeading = document.createElement('h1');
   const aboutPara = document.createElement('p');
   const aboutImg = document.createElement('img');
@@ -31,7 +30,6 @@ function main(){
   heroDiv.appendChild(heroPara);
   heroDiv.appendChild(button);
 
-  aboutTextDiv.appendChild(aboutSubText);
   aboutTextDiv.appendChild(aboutHeading);
   aboutTextDiv.appendChild(aboutPara);
   aboutDiv.appendChild(aboutTextDiv);
