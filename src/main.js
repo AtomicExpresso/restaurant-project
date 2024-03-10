@@ -38,6 +38,7 @@ function main(){
 
   content.appendChild(heroDiv);
   content.appendChild(aboutDiv);
+
 }
 
 export default main;

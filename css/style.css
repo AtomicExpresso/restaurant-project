@@ -29,7 +29,8 @@ body {
   margin-top: 100px;
 }
 
-#main button {
+#main button,
+#imgcontainer button {
   cursor: pointer;
   border: none;
   margin: auto;
@@ -96,5 +97,21 @@ button:hover {
 }
 
 #menu {
+  margin-top: 100px;
+}
+
+#imgcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+#imgcontainer img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+#contactdiv{
   margin-top: 100px;
 }
