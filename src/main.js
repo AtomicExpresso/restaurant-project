@@ -14,7 +14,7 @@ function main(){
   //About section
   const aboutDiv = document.createElement('div');
   const aboutTextDiv = document.createElement('div');
-  const aboutSubText = document.createElement('h4');
+  const aboutSubText = document.createElement('p');
   const aboutHeading = document.createElement('h1');
   const aboutPara = document.createElement('p');
   const aboutImg = document.createElement('img');
@@ -24,6 +24,7 @@ function main(){
   aboutHeading.innerText = 'What makes our pizza great'
   aboutPara.innerText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
   aboutImg.src = '/images/about-img.png';
+  aboutImg.setAttribute("alt","Image of pizza");
   aboutSubText.innerText = 'Traditional';
 
   heroDiv.appendChild(heroHeading);
