@@ -32,3 +32,57 @@ body {
   justify-content: center;
   text-align: center;
 }
+
+#main {
+  display: flex;
+  flex-direction: column;
+  line-height: 0;
+  color: white;
+  background-image: url(/images/banner.png);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
+}
+
+#main h1 {
+  margin-top: 100px;
+}
+
+#main button {
+  cursor: pointer;
+  border: none;
+  margin: auto;
+  background-color: #fb6b00;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+#about {
+  display: flex;
+  flex-direction: row;
+}
+
+#about img {
+  height: 500px;
+  padding: 10px;
+  margin-left: auto;
+  border-radius: 10%;
+}
+
+#abouttext {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  margin-left: 10px;
+  text-align: left;
+  max-width: 600px;
+}
+
+#abouttext p {
+  color: #7b797f;
+}
+
+#abouttext h4 {
+  color: #fb6b00;
+}
