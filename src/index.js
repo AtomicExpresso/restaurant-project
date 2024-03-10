@@ -1,6 +1,7 @@
 import main from './main.js';
 import menuPage  from './menuPage.js';
 import contactPage  from './contactPage.js';
+import * as bootstrap from 'bootstrap';
 
 //navbar
 const homeBtn = document.querySelector('#homebtn');
